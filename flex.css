@@ -1,0 +1,16 @@
+.col{
+
+	-webkit-column-count:2;
+	-webkit-column-rule-style:dotted;
+	font-size: 14px;
+	color: blue;
+}
+
+.center{
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	height: 500px;
+	width: 500px;
+	background-color: yellow;
+}

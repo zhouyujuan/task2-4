@@ -1,0 +1,46 @@
+ *{
+ 	  margin: 0;
+ 	  padding: 0;
+   }
+
+	.daizi{
+		margin-left: 150px;
+    	margin-top: 150px;
+		width: 130px;
+		height: 130px;
+		background-color: blue;
+
+	}
+    .xiezi{
+    	width: 100px;
+    	height: 100px;
+    	background-color: green;
+    	/*overflow: scroll;*/
+    }
+
+    /*鞋盒的大小和鞋子的大小是一样的，设置padding、border会撑开鞋盒的*/
+    .xiehe{
+    	
+         padding: 10px;
+         width: 100px;
+         height: 100px;
+         background-color: red;
+         border: 5px solid yellow;
+    }
+
+     .xiehe1{
+    	
+         padding: 10px;
+         width: 130px;
+         height: 130px;
+         background-color: red;
+         border: 5px solid yellow;
+         box-sizing: border-box;
+         /*尺寸是吧材质也算上了，padding+border*/
+    }
+
+     .xiezi1{
+    	width: 100px;
+    	height: 100px;
+    	background-color: green;
+    }
